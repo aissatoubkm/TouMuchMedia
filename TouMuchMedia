@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+main {TouMuchMedia}
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aisis' Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #39ff14;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+      background-color: #ff007f;
+      padding: 1rem;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      color: #000;
+    }
+
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      border-bottom: 2px solid #39ff14;
+    }
+
+    nav a {
+      color: #39ff14;
+      text-decoration: none;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    .section-title {
+      font-family: 'Orbitron', sans-serif;
+      color: #ff007f;
+      font-size: 2rem;
+      border-bottom: 2px solid #39ff14;
+      margin-bottom: 1rem;
+    }
+
+    .post {
+      margin-bottom: 2rem;
+      background: #111;
+      padding: 1rem;
+      border: 1px solid #39ff14;
+      border-radius: 8px;
+    }
+
+    .comments {
+      margin-top: 1rem;
+    }
+
+    .comment-box {
+      background: #222;
+      border: 1px solid #ff007f;
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    footer {
+      background-color: #ff007f;
+      padding: 1rem;
+      text-align: center;
+      color: #000;
+      font-family: 'Orbitron', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Aisis' Futuristic Blog</h1>
+  </header>
+
+  <nav>
+    <a href="#music">Music</a>
+    <a href="#insights">Insights</a>
+    <a href="#stories">Short Stories</a>
+    <a href="#interviews">Interviews</a>
+    <a href="#news">News</a>
+  </nav>
+
+  <div class="container">
+    <section id="merch">
+      <h2 class="section-title">Merch</h2>
+      <p>🔥 Check out the latest Aisis-branded gear (Coming Soon)</p>
+    </section>
+
+    <section id="latest">
+      <h2 class="section-title">Newest Blog Post</h2>
+      <div class="post">
+        <h3>Title of Latest Post</h3>
+        <p>This is a preview of the latest post... [Read more]</p>
+        <div class="comments">
+          <div class="comment-box">Comment #1: Loving the vibe!</div>
+          <div class="comment-box">Comment #2: More stories please 🙌</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Aisis. All Rights Reserved.
+  </footer>
+</body>
+</html>
